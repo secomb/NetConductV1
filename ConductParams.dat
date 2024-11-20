@@ -1,0 +1,21 @@
+96500.	F, Faraday's constant, C/mol
+0.0355	g_bg, Conductance of background current, nS, or G_leak, values
+2	g_d, Diode conductance, nS
+20		g_gj, Gap junction conductance, nS, taken from Grace's dissertation
+0.18	g_Kir0, Kir channel maximum conductance in nS/(mM^1/2), from Grace's dissertation
+0.0145	g_KNV, Conductance of non-voltage gated K+ channels, suggested values from Delmoe and Secomb, 2022
+3.		K_e0, Baseline extracellular potassium, mM
+145.	K_i, Intracellular potassium, mM
+7.		k_Kir, Kir slope factor, mV, from Grace's dissertation
+25.		v_Kir, Kir offset factor, mV, from Grace's dissertation
+20.		l_EC, Length of endothelial cell, um, taken from Grace's dissertation
+6.		l_EC, Length of endothelial cell, um, taken from Grace's dissertation
+8.315	R, Gas constant, J*mol^-1*K^-1;
+310.	T, In Kelvin
+0.		v_bg, Background Nernst potential, mV
+35000 1.e-10 1.95	nitmax, tol, omega - parameters for linear solver
+200 1.e-3	nitmax1, qtol - parameters for nonlinear solver
+9.		K_stim, potassium concentration in stimulus region
+100.	r_stim, radius of stimulus region
+150. 305. 330.	coordinates of center of stimulus region
+2		type_stim, 0=45-segment. 1=strict sphere. 2=Gaussian sphere.

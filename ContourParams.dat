@@ -1,0 +1,4 @@
+   0. 0. 330.	 5		origin of plane slice for output, subdivision of segments for contours
+ 0. 610. 330. 51		corner of plane slice, number of points
+  610. 0. 330. 51		corner of plane slice, number of points
+
